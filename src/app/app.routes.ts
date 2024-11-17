@@ -5,8 +5,8 @@ import { Ejercicio03ComponentComponent } from './ejercicio03-component/ejercicio
 import { Ejercicio04ComponentComponent } from './ejercicio04-component/ejercicio04-component.component';
 
 export const routes: Routes = [
-  { path: "Ejercico01", component: Ejercicio01ComponentComponent },
-  { path: "Ejercico02", component: Ejercicio02ComponentComponent },
-  { path: "Ejercico03", component: Ejercicio03ComponentComponent },
-  { path: "Ejercico04", component: Ejercicio04ComponentComponent }
+  { path: "Ejercicio01", component: Ejercicio01ComponentComponent },
+  { path: "Ejercicio02", component: Ejercicio02ComponentComponent },
+  { path: "Ejercicio03", component: Ejercicio03ComponentComponent },
+  { path: "Ejercicio04", component: Ejercicio04ComponentComponent }
 ];
