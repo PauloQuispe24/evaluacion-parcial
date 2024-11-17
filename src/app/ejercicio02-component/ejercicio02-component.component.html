@@ -1,1 +1,30 @@
-<p>ejercicio02-component works!</p>
+<mat-toolbar color="primary">
+  <span>Ejercicio 02: Calculador el número mayor</span>
+</mat-toolbar>
+
+<div class="container">
+  <mat-card>
+    <mat-card-title>Ingresar 4 Números</mat-card-title>
+    <mat-card-content>
+      <p>Número 1: <strong>{{ numero1 }}</strong></p>
+      <p>Número 2: <strong>{{ numero2 }}</strong></p>
+      <p>Número 3: <strong>{{ numero3 }}</strong></p>
+      <p>Número 4: <strong>{{ numero4 }}</strong></p>
+    </mat-card-content>
+
+    <mat-card-actions>
+      <button mat-raised-button color="primary" (click)="calcularMayor()">
+        Calcular
+      </button>
+    </mat-card-actions>
+  </mat-card>
+
+  @if (resultado) {
+    <mat-card class="resultado">
+      <mat-card-title>Resultado</mat-card-title>
+      <mat-card-content>
+        <p>El número mayor es: <strong>{{ mayor }}</strong></p>
+      </mat-card-content>
+    </mat-card>
+  }
+</div>
